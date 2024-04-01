@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/RAKSHITH/IdeaProjects/Framework_Development">
+        <classes>
+            <class name="testcases.LoginTest">
+                <methods>
+                    <include name="verifyLoginWithValidUserNameAndValidPassword"/>
+                    <include name="verifyLoginWithInValidUserNameAndValidPassword"/>
+                    <include name="verifyLoginWithValidUserNameAndInValidPassword"/>
+                    <include name="verifyLoginWithInValidUserNameAndInValidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
